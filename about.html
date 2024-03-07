@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Global Tech</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e6d0ce916b.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</head>
+<body>
+
+    <!--Navigation-->
+    <nav>
+        <img src="Pictures/logo.png" alt="">
+        <div class="navigation">
+            <ul>
+                <li><i id="closs-btn" class="fa-regular fa-circle-xmark"></i></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a class="active" href="about.html">About</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="course.html">Course</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i id="menu-btn" class="fa-solid fa-list"></i>
+    </nav>
+    <!--Hero-->
+    <section id="hero-about">
+        <h2>About Us</h2>
+    </section>
+    <!--COntent-->
+    <section id="content">
+        <div class="detail-container">
+            <div class="image">
+                <img src="Pictures/img/i1.jpg" alt="">
+            </div>
+            <div class="details">
+                <h2>Empower Your Skills with Google Tech, Unlocking Limitless Possibilities in The Digital Realmh</h2>
+                <p>Enhance your skills with Google Tech, where innovation meets expertise, empowering you to thrive in the ever-evolving digital landscape.</p>
+                <div class="icon-container">
+                    <div class="icon">
+                        <img src="Pictures/icon/icon_1.jpg" alt="">
+                        <div class="detail">
+                            <h2>1,000+ Courese</h2>
+                            <p>Discover over 1000 courses at Google Tech, catering to all levels and interests, paving the way for your personal and professional growth.</p>
+                        </div>
+                    </div>
+
+                    <div class="icon">
+                        <img src="Pictures/icon/i2.png" alt="">
+                        <div class="detail">
+                            <h2>Lifetime Access</h2>
+                            <p>Discover over 1000 courses at Google Tech, catering to all levels and interests, paving the way for your personal and professional growth.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+    </section>
+    <!--Feature-->
+    <section id="feature">
+        <h2>Awesome Feature</h2>
+        <p>Let the gathering of illuminated minds replenish humanity, yielding a brighter future for all</p>
+        <div class="box-container">
+            <div class="box">
+                <i class="fa-solid fa-graduation-cap"></i>
+                <h6>Scholarship Facility</h6>
+                <p>Nurturing aspirations and fostering academic excellence through our accessible and inclusive Scholarship Facility</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-clipboard-check"></i>
+                <h6>Sell Online Course</h6>
+                <p>Explore a treasure trove of wisdom through our diverse range of online courses, carefully curated to nurture your growth and lead you towards success</p>
+            </div>
+            <div class="box">
+                <i class="fa-solid fa-certificate"></i>
+                <h6>Global Cetification</h6>
+                <p>Embrace the journey of lifelong learning and unlock a world of possibilities with our cutting-edge platform. Enroll now and take charge of your future</p>
+            </div>
+        </div>
+    </section>
+    <section id="feature-about">
+        <h2>Trusted By</h2>
+        <p>Let the gathering of illuminated minds replenish humanity, yielding a brighter future for all</p>
+        <div class="box-container">
+            <img class="a" src="Pictures/icon/f1.png" alt="">
+            <img src="Pictures/icon/f2.png" alt="">
+            <img src="Pictures/icon/f3.png" alt="">
+            <img src="Pictures/icon/f4.png" alt="">
+            <img src="Pictures/icon/f5.jpg" alt="">
+            <img src="Pictures/icon/f6.png" alt="">
+        </div>
+    </section>
+    <footer id="footer">
+        <div class="group">
+            <div class="footer-details">
+                <h6>Top Products</h6>
+                <a href="#">Manage Reputation</a>
+                <a href="#">Power Tools</a>
+                <a href="#">Manage Websites</a>
+                <a href="#">Marketing Service</a>
+            </div>
+            <div class="footer-details">
+                <h6>Quick Links</h6>
+                <a href="#">Jobs</a>
+                <a href="#">Brand Assets</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Terms of Services</a>
+            </div>
+            <div class="footer-details">
+                <h6>Features</h6>
+                <a href="#">Jobs</a>
+                <a href="#">Brand Assets</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Terms of Services</a>
+            </div>
+            <div class="footer-details">
+                <h6>Resources</h6>
+                <a href="#">Manage Reputation</a>
+                <a href="#">Power Tools</a>
+                <a href="#">Manage Websites</a>
+                <a href="#">Marketing Service</a>
+            </div>
+            <div class="footer-details">
+                <h6>NewSletter</h6>
+                <p>You Can Trust Us</p>
+                <div class="sub">
+                    <input type="text" placeholder="Your Email Address">
+                    <button>SUBCRIBE</button>
+                </div>
+            </div>
+        </div>
+        <div class="coppyright">
+            <div>
+                <h2>Copyright © 1995-2023 eBay Inc. All Rights Reserved</h2>
+            </div>
+            
+            <div>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+            
+        </div>
+    </footer>
+
+    <script>
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active');
+        });
+
+        $('#closs-btn').click(function(){
+            $('nav .navigation ul').removeClass('active');
+        });
+    </script>
+</body>
+</html>

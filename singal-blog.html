@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Global Tech</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/e6d0ce916b.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-3.7.0.min.js" integrity="sha256-2Pmvv0kuTBOenSvLm6bvfBSSHrUJ+3A7x6P5Ebd07/g=" crossorigin="anonymous"></script>
+</head>
+<body>
+    <!--Navigation-->
+    <nav>
+        <img src="Pictures/logo.png" alt="">
+        <div class="navigation">
+            <ul>
+                <li><i id="closs-btn" class="fa-regular fa-circle-xmark"></i></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a class="active" href="blog.html">Blog</a></li>
+                <li><a href="course.html">Course</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+        <i id="menu-btn" class="fa-solid fa-list"></i>
+    </nav>
+    <section id="full-blog">
+        <img src="Pictures/blog/190509_Blog_Feature_Network_Diagrams.jpg" alt="">
+        <h2>Learn Web Development in The Easiest Way</h2>
+        <p>I always want to make more money online. And I want you to make more money online, too. The best way is to sell physical stuff (using eBay, Poshmark, Etsy, Craig’s List, and other marketplaces) or earn money from affiliate links. I have recommended lots of programs and products to thousands of folks like you! Let’s do this together. I will share my successes with you and let you know where I’ve failed as well. As they say, this is not rocket science. I am a real online seller. I am an affiliate marketer. I am a real person, Anne Z, and I want to help you succeed! I’m excited to start our journey together!
+            <br><br>
+            I’ve published some books, I’ve made some movies, I’ve taught instructional online courses and I’ve sold a lot of stuff.  Whenever possible, I put affiliate links into the mix. I’ve received some free stuff and earned money and services along the way. I have learned from many of the best affiliate marketers out there and continue to do so! I draw from all my various experiences and interests to help you make MONEY with affiliate marketing. Here is a link to one of my websites about selling online called THE AC’S OF SELLING ONLINE. Check it out!
+            <br><br>
+            Looking to start or grow your affiliate marketing business? Look no further than Wealthy Affiliate! This comprehensive and supportive resource offers everything you need to succeed, including in-depth training, research tools, and a vibrant community of like-minded entrepreneurs. With live chat and community support from experienced marketers, you’ll have all the guidance you need to Success Are you ready to learn a lot, have a bunch of fun, build a full-time income and brand, and promote a platform that you can believe in, and trust, and that can truly help people in a positive way? Well, then Affiliate Bootcamp is for you. By joining Wealthy Affiliate you have the opportunity
+            <br><br>
+            Affiliate marketing is a type of performance-based marketing in which a business rewards an affiliate for each customer brought by the affiliate’s own marketing efforts. The affiliate promotes the product or service to its audience and earns a commission when a sale is made. This creates a mutually beneficial relationship between the business and the Some popular niches for affiliate marketing include health and wellness, technology, finance, beauty, and fashion. Ultimately, the best niche for affiliate marketing is one that aligns with your interests and expertise, as well as one that has a demand for products and services. Here are 20 niches that are well-suited for affiliate marketing: Niche Finder 
+        </p>
+        <a href="singal-blog-2.html"><button class="normal"> Next Blog </button></a>
+    </section>
+    <footer id="footer">
+        <div class="group">
+            <div class="footer-details">
+                <h6>Top Products</h6>
+                <a href="#">Manage Reputation</a>
+                <a href="#">Power Tools</a>
+                <a href="#">Manage Websites</a>
+                <a href="#">Marketing Service</a>
+            </div>
+            <div class="footer-details">
+                <h6>Quick Links</h6>
+                <a href="#">Jobs</a>
+                <a href="#">Brand Assets</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Terms of Services</a>
+            </div>
+            <div class="footer-details">
+                <h6>Features</h6>
+                <a href="#">Jobs</a>
+                <a href="#">Brand Assets</a>
+                <a href="#">Investor Relations</a>
+                <a href="#">Terms of Services</a>
+            </div>
+            <div class="footer-details">
+                <h6>Resources</h6>
+                <a href="#">Manage Reputation</a>
+                <a href="#">Power Tools</a>
+                <a href="#">Manage Websites</a>
+                <a href="#">Marketing Service</a>
+            </div>
+            <div class="footer-details">
+                <h6>NewSletter</h6>
+                <p>You Can Trust Us</p>
+                <div class="sub">
+                    <input type="text" placeholder="Your Email Address">
+                    <button>SUBCRIBE</button>
+                </div>
+            </div>
+        </div>
+        <div class="coppyright">
+            <div>
+                <h2>Copyright © 1995-2023 eBay Inc. All Rights Reserved</h2>
+            </div>
+            
+            <div>
+                <i class="fa-brands fa-facebook-f"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin-in"></i>
+            </div>
+            
+        </div>
+    </footer>
+
+    <script>
+        $('#menu-btn').click(function(){
+            $('nav .navigation ul').addClass('active');
+        });
+
+        $('#closs-btn').click(function(){
+            $('nav .navigation ul').removeClass('active');
+        });
+    </script>
+</body>
+</html>
